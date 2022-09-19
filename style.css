@@ -1,0 +1,19 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: white;
+}
+header{
+    margin: auto;
+    background-image: url('imagens/cabecalho.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 96.5vw;
+    height: 400px;
+    
+}
