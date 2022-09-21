@@ -2,6 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    text-align: center;
 }
 body{
     background-color: black;
@@ -12,8 +13,66 @@ header{
     background-image: url('imagens/cabecalho.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    width: 96.5vw;
+    width: 97vw;
     height: 400px;
+}
+header div{
+   display: inline-block;
+
+}
+article h1{
     
+}
+article div.fotos{
+    display: inline-block;
+    margin: auto;
+    margin: 10px;
+    max-width: 200px;
+    height: 400px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+}
+article div.fotos:hover{
+    border: solid 1px white;
+}
+#div1{
+    background-image: url('imagens/new-york.jpg');
+    background-size: cover;
+}
+#div2{
+    background-image: url('imagens/grand-canyon.webp');
+    background-size: cover;
+}
+#div3{
+    background-image: url('imagens/TORRE-EIF.webp');
+    background-size: cover;
+}
+#div4{
+    background-image: url('imagens/alaska.jpg');
+    background-size: cover;
+}
+
+#fundoFoto{
+    background-image: url('imagens/forest.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.videoTexto{
+    display: inline-block;
+    border: 2px solid white;
+    max-width: 300px;
+    margin: 50px;
+}
+#marca{
+    text-align: left;
+    margin-left: 110px;
+}
+footer{
+    padding: 50px;
+}
+footer a{
+    padding: 40px;
 }
