@@ -13,15 +13,42 @@ header{
     background-image: url('imagens/cabecalho.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     width: 97vw;
-    height: 400px;
+    max-height: fit-content;
+}
+header h1{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 3em;
+}
+header p{
+    text-align: left;
+    padding-left: 00px;
+}
+#textoCabeca{
+    display: inline-flex;
+    margin-left: 50px;
+    padding-bottom: 132px;
+}
+#secondpart{
+    padding-left: 200px;
 }
 header div{
    display: inline-block;
-
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    text-decoration: underline;
+    font-size: 1.1em;
 }
 article h1{
-    
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 3em;
 }
 article div.fotos{
     display: inline-block;
@@ -59,20 +86,30 @@ article div.fotos:hover{
     background-image: url('imagens/forest.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+#divsemborda{
+    border: 0px solid white;
+    margin-bottom: 100px;
 }
 .videoTexto{
     display: inline-block;
     border: 2px solid white;
     max-width: 300px;
+    height: 215px;
     margin: 50px;
 }
 #marca{
-    text-align: left;
-    margin-left: 110px;
+    text-align: center;
 }
 footer{
     padding: 50px;
 }
 footer a{
     padding: 40px;
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    font-size: 1.3em;
 }
